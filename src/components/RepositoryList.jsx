@@ -13,7 +13,7 @@ export function RepositoryList() {
 
   return (
     <section className='repositoriesWrapper'>
-      <h1>Lista de repositórios</h1>
+      <h1>Repositories list</h1>
 
       <ul>
         {repositories.map((repository) => (
